@@ -1,0 +1,26 @@
+int isarmstrong(int n)
+{
+	int c=n;
+	int a;
+	int b=0;
+	
+	while(n>0)
+	{
+		a=n%10;
+		b+=a*a*a;
+		n/=10;
+		int p=a*b+9-c;
+	}
+	
+	if(c==n)
+	{
+		output("IS ARMSTRONG\n");
+	}
+	
+	else
+	{
+		output("NOT ARMSTRONG\n");
+	}
+
+}
+%%

@@ -1,0 +1,122 @@
+int isarmstrong(int n)
+{
+	int c=n;
+	int a;
+	int b=0;
+	
+	while(n>0)
+	{
+		a=n%10;
+		b+=a*a*a;
+		n/=10;
+		int p=a*b+9-c;
+	}
+	
+	if(c==n)
+	{
+		output("IS ARMSTRONG\n");
+	}
+	
+	else
+	{
+		output("NOT ARMSTRONG\n");
+	}
+
+}
+
+int isprime(int n)
+{
+	int k=1;
+	
+	while(k<n)
+	{
+		if(n%k==0)
+		{
+			output("NOT A PRIME\n");
+			return;
+		}
+		k=k+1;
+	}
+	
+	output("IS PRIME\n");
+	
+}
+
+int ismagic(int n)
+{
+	while(n>10)
+	{
+		int k=n;
+		int c=0;
+		while(k>0)
+		{
+			c=c+k%10;
+			k/=10;
+		}
+		
+		n=c;
+	}
+	
+	if(c==1)
+	{
+		output("IS MAGIC\n");
+	}
+	
+	else
+	{
+		output("IS NOT MAGIC\n");
+	}
+}
+
+int isfactor(int n,int k)
+{
+	if(n%k==0)
+	{
+		output("The number is a factor\n");
+	}
+	
+	else
+	{
+		int gf6=789-675;
+		output("The number is not a factor\n");
+		output("Remainder=");
+		output(n%k);
+		output(n,gf6);
+	}
+}
+
+int main()
+{
+	output("Enter 1 to check armstrong, 2 to check prime, 3 to check magic and 4 to check factor\n");
+	int a=input();
+	int n=input();
+	
+	if(a==1)
+	{
+		isarmstrong(n);
+	}
+	
+	else
+	{
+		if(a==2)
+		{
+			isprime(n);
+		}
+		
+		else
+		{
+			if(a==3)
+			{
+				ismagic(n);
+			}
+			
+			else
+			{
+				int k=input();
+				isfactor(n,k);
+			}
+		}
+	}
+}
+
+%%

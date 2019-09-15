@@ -1,0 +1,52 @@
+int main()
+{
+	int a;
+	
+	a=input();
+	
+	if(a>10)
+	{
+		while(a>0 && a<10)
+		{
+			output(a);
+			
+			int t=a%10+8-9/7*3&5|9^5+2;
+			
+			a-=1;
+			a*=10;
+			a/=10;
+			a-=1;
+		}
+	}
+	
+	else
+	{
+		switch(a)
+		{
+			case 1:
+				while(b>5)
+				{
+					output("ABCD");
+					b-=4;
+				}
+				
+				if(a>10)
+				{
+					output(n);
+				}
+				
+				break;
+			
+			case 2:
+				output("Hello World\n");
+				
+			case 3:
+				
+				int k=10;
+				int t;
+				
+				t=k*10+6;
+		}
+	}
+}
+%%

@@ -1,0 +1,524 @@
+Parsing of sub c language will begin.
+This has two sections
+The first section elaborates how each construct is identified as a bottom up traversal of the inbulit yacc parse tree
+The second section will thereafter provide the three address intermediate code
+*********************************************************************************
+SECTION-I
+-------------------------------------------->
+Came int
+Came ID main
+Came separator (
+Came separator )
+No parameter detected successfully
+Came separator {
+Came int
+Came ID a
+Came separator ;
+label1
+label2
+Uninitialized detected successfully
+Uninitialized detected successfully
+Declaration detected successfully
+Came ID a
+Came assignment 
+Came input statement
+Input detected successfully
+Came separator ;
+Normal initialized detected successfully
+Assignment statement encountered
+label3
+label4
+Came if
+Came separator (
+Came ID a
+ID detected successfully 0x560a116b62b0
+Expression detected successfully
+Came number
+Number detected successfully 0x560a116b6370
+Came separator )
+Expression detected successfully
+Bool stmt detected successfully
+	t1=a>10
+Bool statement code generated
+Bool stmt detected successfully
+Came separator {
+Came while
+Came separator (
+Came ID a
+ID detected successfully 0x560a116b64a0
+Expression detected successfully
+Came number
+Number detected successfully 0x560a116b6560
+Expression detected successfully
+Bool stmt detected successfully
+	t2=a>0
+Bool statement code generated
+Came ID a
+ID detected successfully 0x560a116b6670
+Expression detected successfully
+Came number
+Number detected successfully 0x560a116b6730
+Came separator )
+Expression detected successfully
+Bool stmt detected successfully
+	t3=a<10
+Bool statement code generated
+Bool stmt detected successfully
+Bool expression detected successfully
+Bool expression code generated
+Came separator {
+Came output statement
+Came separator (
+Came ID a
+Came separator )
+ID detected successfully 0x560a116b68b0
+Expression detected successfully
+ID detected successfully
+Only value for multiargument detected
+Multiple arguments to be printed
+Came separator ;
+Output to be printed
+Output statement detected
+label5
+label6
+Came int
+Came ID t
+Came assignment 
+Came ID a
+Came %
+ID detected successfully 0x560a116b6aa0
+Came number
+Number detected successfully 0x560a116b6b20
+Came +
+MOD detecte	d successfully
+Came number
+Number detected successfully 0x560a116b6c20
+Came -
+ADD parameter detected successfully
+Came number
+Number detected successfully 0x560a116b6d20
+Came /
+Came number
+Number detected successfully 0x560a116b6da0
+Came *
+DIV parameter detected successfully
+Came number
+Number detected successfully 0x560a116b6ea0
+Came &
+MUL parameter detected successfully
+SUB parameter detected successfully
+Came number
+Number detected successfully 0x560a116b7020
+Came |
+AND parameter detected successfully
+Came number
+Number detected successfully 0x560a116b7120
+Came ^
+OR parameter detected successfully
+Came number
+Number detected successfully 0x560a116b7220
+Came +
+Came number
+Number detected successfully 0x560a116b72a0
+Came separator ;
+ADD parameter detected successfully
+XOR parameter detected successfully
+	t5 =a%10
+	t6 =t5+8
+	t7 =9/7
+	t8 =t7*3
+	t9 =t6-t8
+	t10 =t9&5
+	t11 =t10|9
+	t12 =5+2
+	t13 =t11^t12
+Expression detected successfully
+Other value has been requested
+Normal initialized detected successfully
+Initialized detected successfully
+label7
+label8
+Declaration detected successfully
+Came ID a
+Came SUBA
+Came number
+Number detected successfully 0x560a116b7510
+Came separator ;
+Expression detected successfully
+Other value has been requested
+SUB initialized detected successfully
+Assignment statement encountered
+label9
+label10
+Came ID a
+Came MULA
+Came number
+Number detected successfully 0x560a116b7700
+Came separator ;
+Expression detected successfully
+Other value has been requested
+MUL initialized detected successfully
+Assignment statement encountered
+label11
+label12
+Came ID a
+Came DIVA
+Came number
+Number detected successfully 0x560a116b78f0
+Came separator ;
+Expression detected successfully
+Other value has been requested
+DIV initialized detected successfully
+Assignment statement encountered
+label13
+label14
+Came ID a
+Came SUBA
+Came number
+Number detected successfully 0x560a116b7ae0
+Came separator ;
+Expression detected successfully
+Other value has been requested
+SUB initialized detected successfully
+Assignment statement encountered
+label15
+label16
+Came separator }
+No statement detected successfully
+Multistatement detected successfully
+Multistatement detected successfully
+Multistatement detected successfully
+Multistatement detected successfully
+Multistatement detected successfully
+Multistatement detected successfully
+label17
+label18
+Block detected successfully
+Loop detected successfully
+Loop code generated 
+Loop detected succesfully
+label19
+label20
+Came separator }
+No statement detected successfully
+Multistatement detected successfully
+label21
+label22
+Block detected successfully
+Came else
+Came separator {
+Came separator (
+Came ID a
+Came separator )
+ID detected successfully 0x560a116b80c0
+Expression detected successfully
+Came separator {
+Came number
+Came while
+Came separator (
+Came ID b
+ID detected successfully 0x560a116b8200
+Expression detected successfully
+Came number
+Number detected successfully 0x560a116b82c0
+Came separator )
+Expression detected successfully
+Bool stmt detected successfully
+	t18=b>5
+Bool statement code generated
+Bool stmt detected successfully
+Came separator {
+Came output statement
+Came separator (
+Came STRING"ABCD"
+Came separator )
+Came separator ;
+Output to be printed
+Output statement detected
+label23
+label24
+Came ID b
+Came SUBA
+Came number
+Number detected successfully 0x560a116b85c0
+Came separator ;
+Expression detected successfully
+Other value has been requested
+SUB initialized detected successfully
+Assignment statement encountered
+label25
+label26
+Came separator }
+No statement detected successfully
+Multistatement detected successfully
+Multistatement detected successfully
+label27
+label28
+Block detected successfully
+Loop detected successfully
+Loop code generated 
+Loop detected succesfully
+label29
+label30
+Came if
+Came separator (
+Came ID a
+ID detected successfully 0x560a116b8910
+Expression detected successfully
+Came number
+Number detected successfully 0x560a116b89d0
+Came separator )
+Expression detected successfully
+Bool stmt detected successfully
+	t20=a>10
+Bool statement code generated
+Bool stmt detected successfully
+Came separator {
+Came output statement
+Came separator (
+Came ID n
+Came separator )
+ID detected successfully 0x560a116b8b00
+Expression detected successfully
+ID detected successfully
+Only value for multiargument detected
+Multiple arguments to be printed
+Came separator ;
+Output to be printed
+Output statement detected
+label31
+label32
+Came separator }
+No statement detected successfully
+Multistatement detected successfully
+label33
+label34
+Block detected successfully
+Came break
+Conditional detected successfully
+label35
+label36
+No statement detected successfully
+Multistatement detected successfully
+Multistatement detected successfully
+Came separator ;
+Came number
+Came output statement
+Came separator (
+Came STRING"Hello World\n"
+Came separator )
+Came separator ;
+Output to be printed
+Output statement detected
+label37
+label38
+No statement detected successfully
+Multistatement detected successfully
+Came number
+Came int
+Came ID k
+Came assignment 
+Came number
+Number detected successfully 0x560a116b91f0
+Came separator ;
+Expression detected successfully
+Other value has been requested
+Normal initialized detected successfully
+Initialized detected successfully
+label39
+label40
+Declaration detected successfully
+Came int
+Came ID t
+Came separator ;
+label41
+label42
+Uninitialized detected successfully
+Uninitialized detected successfully
+Declaration detected successfully
+Came ID t
+Came assignment 
+Came ID k
+Came *
+ID detected successfully 0x560a116b9470
+Came number
+Number detected successfully 0x560a116b94f0
+Came +
+MUL parameter detected successfully
+Came number
+Number detected successfully 0x560a116b95f0
+Came separator ;
+ADD parameter detected successfully
+	t21 =k*10
+	t22 =t21+6
+Expression detected successfully
+Other value has been requested
+Normal initialized detected successfully
+Assignment statement encountered
+label43
+label44
+Came separator }
+No statement detected successfully
+Multistatement detected successfully
+Multistatement detected successfully
+Multistatement detected successfully
+label45
+label46
+Empty case identified
+label45 label46
+Case without break identified
+label47
+label48
+label47 label48
+Case without break identified
+label49
+label50
+label49 label50
+Case with break identified
+label51
+label52
+case with break code generated
+switch identified
+SWITCH statement code generated
+Switch statement encountered
+label53
+Came separator }
+No statement detected successfully
+Multistatement detected successfully
+label54
+label55
+Block detected successfully
+If else detected successfully
+If else code generated successfully
+Conditional detected successfully
+label56
+label57
+Came separator }
+No statement detected successfully
+Multistatement detected successfully
+Multistatement detected successfully
+Multistatement detected successfully
+label58
+label59
+Block detected successfully
+function detected successfully
+Function code generated successfully
+Came EOF
+Function detected1 successfully
+Function componenet generated successfully
+Program detected successfully
+*************************************************************
+SECTION-II
+-------------------------------------------->
+
+	Define function main
+
+label58:
+
+label2:
+	a=input
+
+label4:
+	t1=a>10
+	If t1 is false go to  label54
+
+label21:
+
+label19:
+	t2=a>0
+	t3=a<10
+	t4=t2&&t3
+	If t4 is false go to  label20
+
+label17:
+
+label5:
+	Write a
+
+label6:
+	t5 =a%10
+	t6 =t5+8
+	t7 =9/7
+	t8 =t7*3
+	t9 =t6-t8
+	t10 =t9&5
+	t11 =t10|9
+	t12 =5+2
+	t13 =t11^t12
+	t=t13
+
+label8:
+	t14 =a-1
+	a=t14
+
+label10:
+	t15 =a*10
+	a=t15
+
+label12:
+	t16 =a/10
+	a=t16
+
+label14:
+	t17 =a-1
+	a=t17
+	Return to  label19
+	Goto  label57
+
+label54:
+
+label53:
+
+label51:
+	If a!=1goto label49
+
+label29:
+	t18=b>5
+	If t18 is false go to  label30
+
+label27:
+
+label23:
+	Write "ABCD"
+
+label24:
+	t19 =b-4
+	b=t19
+	Return to  label29
+
+label30:
+	t20=a>10
+	If t20 is false go to  label36
+
+label33:
+
+label31:
+	Write n
+label36:
+label52:
+	Goto label48
+
+label49:
+	If a!=2goto label47
+
+label37:
+	Write "Hello World\n"
+label50:
+
+label47:
+	If a!=3goto label48
+
+label39:
+	k=10
+
+label42:
+	t21 =k*10
+	t22 =t21+6
+	t=t22
+label48:
+	Goto  label57
+label57:
+label59:
+ Function Completed
+************************************************************************************
+This concludes the semester assignment of generating three address intermediate code for a custom sub c language having selected features

@@ -1,0 +1,26 @@
+int main()
+{
+int a;
+int ab1a;
+int b=10;
+while(a<ab1a)
+{
+	b=b*c;
+	if(a>b)
+	{
+		a=b+c*d;
+		z=a;
+	}
+	else
+	{
+		ab1a=10;
+	}
+}
+switch(ab1a)
+{
+case 1:z=b;
+case 2:z=abz;
+}
+}
+%%
+

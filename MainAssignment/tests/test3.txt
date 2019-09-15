@@ -1,0 +1,30 @@
+int main()
+{
+	int a=input();
+	int b=a+b-56*76;
+	output(b);
+	if(b>c)
+	{
+		output("Hello World\n");
+	}
+	
+	if(b>10 && b<50 && b>18)
+	{
+		output("ksjfksdf\n");
+	}
+	
+	else
+	{
+		output("greatedjads\n");
+	}
+	
+	while(b>10)
+	{
+		output("kajdkadjkas\n");
+	}
+	
+	int t=funct(1,2,3);
+	return 0;
+}
+%%	
+	

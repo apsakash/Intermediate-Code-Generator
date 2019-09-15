@@ -1,0 +1,18 @@
+int main()
+{
+	int c;
+	if(t>10)
+	{
+	}
+	else
+	{
+	}
+	
+	int d;
+	
+	int p=10;
+	
+	output("Abcd");
+}
+
+%%

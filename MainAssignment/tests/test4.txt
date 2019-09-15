@@ -1,0 +1,36 @@
+int main()
+{
+	int i=5*7-b;
+	switch(i)
+	{
+		case 1:
+			int k=354;
+			if(k>89)
+			{
+				output("Hello World\n");
+			}
+			else
+			{
+				output("Goodbye World\n");
+			}
+		break;
+		
+		case 2:
+			int c=100;
+			
+			while(c>0)
+			{
+				output(c);
+				c-=1;
+			}
+		
+		case 3:
+			int p=190;
+			
+			if(p==10)
+			{
+				output("To be continued\n");
+			}
+	}
+}
+%%

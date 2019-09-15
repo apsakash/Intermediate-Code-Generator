@@ -1,0 +1,25 @@
+int a=5;
+
+int main()
+{
+	if(a==10)
+	{
+		if(b==10)
+		{
+			if(c==45)
+			{
+				int k=input();
+			}
+			else
+			{
+				int k=armstrong(10,20,secondarmstrong());
+			}
+		}
+	}
+	
+	
+}
+
+int b=10;
+
+%%

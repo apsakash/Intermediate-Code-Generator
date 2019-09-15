@@ -1,0 +1,42 @@
+int main()
+{
+	int s=10;
+	int t;
+	switch(s)
+	{
+		case 1:
+			int k=10;
+			while(k>0)
+			{
+				output(k);
+				output("Hello World\n");
+				k-=1;
+			}
+		break;
+		
+		case 2:
+			
+			int p;
+			int c=10;
+			
+			
+			if(!(c>d && t<10))
+			{
+				p=6^8;
+			}
+			
+			else
+			{
+				bool k=true;
+			}
+		break;
+		
+		case 3:
+			
+			int d=976;
+	}
+	
+	
+}
+
+%%

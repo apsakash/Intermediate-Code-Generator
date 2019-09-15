@@ -1,0 +1,40 @@
+int main()
+{
+	int k=10;
+	
+	switch(k)
+	{
+		case 1:
+			int c=10;
+			
+			switch(c)
+			{
+				case 1:
+				
+					while(t>0)
+					{
+						t=t+1;
+					}
+					
+					break;
+				
+				case 2:
+					output("Hello World\n");
+			}
+			
+		case 2:
+			int k=10;
+			
+			if(k>0)
+			{
+				output("Bol do na zara\n");
+			}
+			
+			break;
+		
+		case 3:
+		
+			output("Hello there\n");
+	}
+}
+%%
